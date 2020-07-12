@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 10rem;
+}
+
+.intro-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro-cards img {
+  display: inline-block;
+  height: 15em;
+}
+
+.card {
+  padding: 5px;
+  overflow: hidden;
+}
