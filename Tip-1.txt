@@ -1,0 +1,16 @@
+If you have a ng not recognised error, then it is most likely that either Angular isn't installed - obvious, or
+Angular hasn't been added to Enviroment variables for those with Windows OS.
+
+If you can't get this error resolved and time of the issue, then one workaround, is to open Node
+command prompt, and use that to run the ng commands.
+
+Tip: If you do install Angular client, ensure you use the --g option (global).
+
+
+
+
+Tip 2: When you have copied an Angular project from an online source, it is most likely without
+a key folder called node_modules. The reason is the size of this folder tends to be huge so you might find
+it most of the times, this file is removed from the project. The easiest way to re-create this folderis to go
+to your command line and type npm install --save. This should fixed the missing node_modules based
+on your project.json file.

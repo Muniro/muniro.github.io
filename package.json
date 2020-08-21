@@ -1,0 +1,17 @@
+{
+  "name": "muniro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build style/style.css -o dist/style/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "tailwindcss": "^1.7.1"
+  }
+}
