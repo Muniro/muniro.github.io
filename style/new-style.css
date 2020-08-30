@@ -1,0 +1,14 @@
+h1 {
+  background: black;
+  font-weight: 700;
+  color: white;
+}
+
+.blend {
+  background: rgb(91, 100, 20);
+  mix-blend-mode: multiply;
+}
+
+.grad{
+    background: linear-gradient(to right,#000,#7fb4e0);  
+}
